@@ -1,0 +1,305 @@
+@media only screen and (max-width: 375px) {
+    /*============= style header ============*/
+    /*-----------------------------------*/
+
+header {
+        background: #fff;
+        box-shadow: 0px 2px 6px gray;
+        z-index: 10;
+        width: 100%;
+        height: 262px;
+}
+
+    .header-inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .logo {
+        line-height: 0;
+        padding-top: 6px;
+        height: 75px;
+        padding-bottom: 0px;
+    }
+    .img-accl {
+        padding-top: 262px;
+    }
+
+    nav ul {
+        background: #fff;
+        list-style: none;
+        padding: 0;
+        flex-direction:column;
+        text-align: center;
+        height: 60%;
+        padding-top: 28px;
+    }
+
+    nav ul li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    nav ul li a {
+        color:#767676;
+        text-decoration: none;
+        padding: 10px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    nav li a:hover {
+        border-top: solid #4eb1d5 3px;
+        border-bottom: solid #4eb1d5 2px;
+        position: relative;
+    }
+
+    /*==== style-bloc_accueil ====*/
+    /*-----------------------------------*/
+    #bloc_slider{
+    position: relative;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    }
+
+    .legende-img {
+        top:258px;
+    }
+
+    .imp {
+        display: none;
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+
+    /*------- chevrons gauche/droite-------*/
+
+    .fleche-gau {
+        width: 27px;
+        height: 43px;
+        top: 257px;
+    }
+
+    .fleche-droi {
+        width: 27px;
+        height: 43px;
+        top: 257px;
+    }
+
+    .fa_custom {
+        color: #fff;
+    }
+
+    .chevron-gau {
+        top: 297px;
+    }
+
+    .chevron-droi {
+        top: 297px;
+    }
+
+/*===== Fin style Bloc-accueil =====*/
+
+/*===== style Bloc-services =====*/
+
+#bloc_services{
+    text-align: center;
+}
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .presentation-services{
+        width: 95%;
+        line-height: 25px;
+    }
+
+    /*===== style-images =====*/
+
+    .image-services img{
+        width: 50%;
+    }
+
+    /*===== fin-style-images =====*/
+
+    /*===== style-text & icons =====*/
+
+    .liste-services {
+        display: block;
+        padding: 25px 25px 25px 25px;
+        width: 100%;
+    }
+
+    .circle-icons {
+            display: none;
+    }
+
+    .icon .fas {
+            padding: 18px 18px;
+            border: solid #ccc 1px;
+            border-radius: 50%;
+    }
+
+    .fa-2x {
+            font-size: 21px;
+    }
+
+/*===== fin-style-style-text & icons =====*/  
+    
+/*===== Fin style Bloc-services =====*/
+     
+/*===== style Bloc-projets =====*/
+
+#bloc_projets{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+       
+    .prs3 p{
+        padding: 10px 15px 10px 15px;
+    }
+
+    .menu-projet {
+        position: relative;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+
+        .menu-projet li:first-child {
+            border: 1px solid transparent;
+            border-radius: 5px 0 0 5px;
+        }
+        
+        .menu-projet li:last-child {
+            border: 1px solid transparent;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .icon-menuprojet i {
+        height: 100%;
+        transform: translateY(60%);
+        z-index: 0;
+        font-size: 2em;
+        }
+    
+/* style resalisation */
+
+    figure{
+        height: 220px;
+        width: 300px;
+        bottom: 20px;
+    }
+
+    .portfolio{
+        height: 144px;
+    }
+
+    figcaption{
+        top: 83px;
+        width: 100%;
+    }
+
+    .legende-portofolio{
+        width: 100%;
+        height: 57px;
+        font-size: 13px;
+    }
+    
+    .vue{
+        top: 13px;
+        width: 80%;
+        height: 80%;
+        right: 16px;
+    }
+
+    .vue i{
+        width: 45px;
+        height: 45px;
+        bottom: 81px;
+        color:white;
+        border: 2px solid #fff;
+        background:#61abd2;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fa-eye{
+        content: "\f06e";
+        position: absolute;
+        left: 78%;
+        transform: translateY(-50%);
+    }
+
+
+/*===== Fin de style Bloc-projets =====*/
+
+/* section contact */
+
+#contact{
+        padding-top: 1px;
+        position: relative;
+}
+
+    #contact .carte{
+        height: 580px;
+        position: relative;
+    }
+    
+    #contact .carte iframe{
+        position: relative;
+        width: 100%;
+        height: 580px;
+    }
+
+    #contact .formulaire-contact {
+        position: absolute;
+        width: 100%;
+        height: 470px;
+        padding: 5px 4px 5px 10px;
+        top: 600px;
+    }
+
+    #contact #message {
+        height: 125px;
+        margin-bottom: 15px;
+        border: 1px solid #b3b3b3;
+        font-weight: bold;
+        font-family: 'roboto','sans-serif';
+    }
+
+    #contact .carte .formulaire-contact form{
+        width: 90%;
+    }
+
+    #contact .carte .formulaire-contact form .btn-send{
+        position: absolute;
+        background-color:#5CADD3;
+        padding: 5px 5px 5px 5px;
+        bottom: 27px;
+        right: auto;
+        border-radius: 3px;
+        border: 0;
+        box-shadow: 0px 3px 0px #477F9B;
+        font-weight: bold;
+        color: white;
+    }
+
+    #contact .overlay {
+        height: 580px;
+        position: absolute;
+    }
+/*======= Fin formulaire =======*/
+}
